@@ -1,0 +1,29 @@
+{
+  "name": "dev-portfolio",
+  "version": "1.0.0",
+  "description": "Web Development Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markrogers9109/dev-portfolio.git"
+  },
+  "author": "Mark Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markrogers9109/dev-portfolio/issues"
+  },
+  "homepage": "https://github.com/markrogers9109/dev-portfolio#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "body-parser": "~1.0.0",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "less": "^2.7.1"
+  }
+}

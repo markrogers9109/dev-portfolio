@@ -1,0 +1,117 @@
+@import "color-scheme.less";
+@import "personal-projects.less";
+@import "team-projects.less";
+
+.projects-columns {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    .projects-column_one {
+        padding: 0;
+        background-color: @dark-blue;
+        height: 300px;
+        padding: 30px 0;
+        a {
+            text-decoration: none;
+        }
+        i, h3 {
+            color: @off-white;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        i {
+            font-size: 90px;
+        }
+        h3 {
+            font-size: 48px;
+        }
+    }
+    .projects-column_one:hover {
+        box-shadow: 0px 0px 10px #333;
+    }
+    .projects-column_two {
+        padding: 0;
+        background-color: @dark-purple;
+        height: 300px;
+        padding: 30px 0;
+        a {
+            text-decoration: none;
+        }
+        i, h3 {
+            color: @off-white;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        i {
+            font-size: 90px;
+        }
+        h3 {
+            font-size: 48px;
+        }
+    }
+    .projects-column_two:hover {
+        box-shadow: 0px 0px 10px #333;
+    }
+    .projects-column_three {
+        padding: 0;
+        background-color: @pastelle-red;
+        height: 300px;
+        padding: 30px 0;
+        a {
+            text-decoration: none;
+        }
+        i, h3 {
+            color: @off-white;
+            text-align: center;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        i {
+            font-size: 90px;
+        }
+        h3 {
+            font-size: 48px;
+        }
+    }
+    .projects-column_three:hover {
+        box-shadow: 0px 0px 10px #333;
+    }
+    .active {
+        width: 10%;
+        transition: width .3s;
+        i {
+            color: @off-white;
+            text-align: center;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+        }
+        h3 {
+            display: none;
+        }
+    }
+    .not-active {
+        width: 10%;
+        transition: width .3s;
+        &.projects-column_one {
+            float: left;
+        }
+        &.projects-column_two {
+            float: right;
+        }
+        &.projects-column_three {
+            float: right;
+        }
+        h3 {
+            display: none;
+        }
+    }
+}
