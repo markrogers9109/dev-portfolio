@@ -6,7 +6,7 @@
 <g id="Artboard">
 </g>
 <g id="Multicolor">
-	<circle style="fill:#25B7D3;" cx="55" cy="55" r="55"/>
+	<circle style="fill:rgba(87, 203, 255, 0.4);" cx="55" cy="55" r="55"/>
 	<g>
 		<path style="fill:#3E3E3F;" d="M65,85c0,1.105-0.895,2-2,2H47c-1.105,0-2-0.895-2-2V57c0-1.105,0.895-2,2-2h16
 			c1.105,0,2,0.895,2,2V85z"/>

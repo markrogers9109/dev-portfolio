@@ -1,0 +1,85 @@
+@import "../color-scheme.less";
+
+
+personal-projects {
+    display: none;
+    width: 0%;
+    transition: 0.3s;
+    .personal-projects {
+        height: 300px;
+        background-color: @off-white;
+        color: @off-white;
+        .project-display_one {
+            background: url('../../images/pet-store.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 220px;
+            margin: 40px 0;
+            transition: 0.3s;
+            &:hover {
+                .project-button_container {
+                    height: auto;
+                    padding: 5px;
+                    margin-top: 190px;
+                    font-size: 16px;
+                    .btn-primary {
+                        border: 2px solid @off-white;
+                    }
+                }
+            }
+            .project-button_container {
+                height: 0px;
+                width: 100%;
+                padding: 0px;
+                font-size: 0px;
+                background-color: @dark-purple;
+                display: inline-flex;
+                // justify-content: space-around;
+                margin-top: 250px;
+                transition: 0.3s;
+                .btn-primary {
+                    background-color: transparent;
+                    color: @off-white;
+                    border: 0px solid @off-white;
+                    margin: 0 15px;
+                }
+            }
+        }
+        .project-display_two {
+            background: url('../../images/restaurante.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 220px;
+            margin: 40px 0;
+            transition: 0.3s;
+            &:hover {
+                .project-button_container {
+                    height: auto;
+                    padding: 5px;
+                    margin-top: 190px;
+                    font-size: 16px;
+                    .btn-primary {
+                        border: 2px solid @off-white;
+                    }
+                }
+            }
+            .project-button_container {
+                height: 0px;
+                width: 100%;
+                padding: 0px;
+                font-size: 0px;
+                background-color: @dark-purple;
+                display: inline-flex;
+                // justify-content: space-around;
+                margin-top: 250px;
+                transition: 0.3s;
+                .btn-primary {
+                    background-color: transparent;
+                    color: @off-white;
+                    border: 0px solid @off-white;
+                    margin: 0 15px;
+                }
+            }
+        }
+    }
+}

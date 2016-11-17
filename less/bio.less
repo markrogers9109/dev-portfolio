@@ -3,4 +3,46 @@
 .bio-columns {
     height: 100%;
     background-color: @off-white;
+    border-bottom: 2px solid @white;
+    padding: 3% 0;
+    .bio-header {
+        padding: 10% 0;
+        h1 {
+            font-size: 125px;
+            span {
+                color: @light-blue;
+            }
+        }
+    }
+    .bio-picture {
+        display: flex;
+        img {
+            border: 15px solid #7dcbdf;
+            border-radius: 50%;
+            margin: -5px 5% 0 10%;
+        }
+    }
+    hr {
+        background-color: #7dcbdf;
+        height: 5px;
+        width: 83%;
+        float: left;
+        margin-top: -6px;
+    }
+    .bio-content {
+        padding: 15px;
+        h3 {
+            font-size: 38px;
+            font-weight: 300;
+        }
+        p {
+            font-size: 24px;
+        }
+    }
+    .bio-sidebar {
+        padding: 30px;
+        h3 {
+            font-size: 18px;
+        }
+    }
 }

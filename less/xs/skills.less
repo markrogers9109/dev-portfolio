@@ -1,0 +1,28 @@
+@import "../color-scheme.less";
+
+super-powers {
+    background-color: @off-white;
+    display: none;
+    .skills-container {
+        height: 100%;
+        .skill-levels {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            .skill-border_left {
+                border-left: 1px solid @op-blue;
+            }
+            .skill-border_both {
+                border-left: 1px solid @op-blue;
+                border-right: 1px solid @op-blue;
+            }
+            h3 {
+                font-size: 16px;
+                width: 25%;
+                padding: 15px 0;
+                text-align: center;
+                margin-top: 0;
+            }
+        }
+    }
+}

@@ -1,6 +1,7 @@
-jQuery(window).ready(function() {
+jQuery(document).delay(500).ready(function() {
     var container = jQuery('.navcontainer');
     var main = jQuery('.sidebar');
+    console.log('nav loaded');
 
     function toggleSidebar(){
         isShowingSidebar() ? hideSidebar() : showSidebar();
@@ -23,8 +24,9 @@ jQuery(window).ready(function() {
     jQuery('hamburger').click(toggleSidebar, false);
 
     container.click(function(e){
+        console.log('nav clicked');
         if(isShowingSidebar()){
-            e.preventDefault();
+            // e.preventDefault();
             hideSidebar();
         } else {
             showSidebar();

@@ -1,0 +1,84 @@
+@import "../color-scheme.less";
+
+
+team-projects {
+    display: none;
+    transition: 0.3s;
+    .team-projects {
+        height: 100%;
+        background-color: @off-white;
+        color: @off-white;
+        .project-display_three {
+            background: url('../../images/pet-store.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 220px;
+            margin: 40px 0;
+            transition: 0.3s;
+            &:hover {
+                .project-button_container {
+                    height: auto;
+                    padding: 5px;
+                    margin-top: 190px;
+                    font-size: 16px;
+                    .btn-primary {
+                        border: 2px solid @off-white;
+                    }
+                }
+            }
+            .project-button_container {
+                height: 0px;
+                width: 100%;
+                padding: 0px;
+                font-size: 0px;
+                background-color: @pastelle-red;
+                display: inline-flex;
+                // justify-content: space-around;
+                margin-top: 250px;
+                transition: 0.3s;
+                .btn-primary {
+                    background-color: transparent;
+                    color: @off-white;
+                    border: 0px solid @off-white;
+                    margin: 0 15px;
+                }
+            }
+        }
+        .project-display_four {
+            background: url('../../images/restaurante.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 220px;
+            margin: 40px 0;
+            transition: 0.3s;
+            &:hover {
+                .project-button_container {
+                    height: auto;
+                    padding: 5px;
+                    margin-top: 190px;
+                    font-size: 16px;
+                    .btn-primary {
+                        border: 2px solid @off-white;
+                    }
+                }
+            }
+            .project-button_container {
+                height: 0px;
+                width: 100%;
+                padding: 0px;
+                font-size: 0px;
+                background-color: @pastelle-red;
+                display: inline-flex;
+                // justify-content: space-around;
+                margin-top: 250px;
+                transition: 0.3s;
+                .btn-primary {
+                    background-color: transparent;
+                    color: @off-white;
+                    border: 0px solid @off-white;
+                    margin: 0 15px;
+                }
+            }
+        }
+    }
+}

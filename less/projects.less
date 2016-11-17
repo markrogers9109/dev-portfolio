@@ -28,9 +28,9 @@
         h3 {
             font-size: 48px;
         }
-    }
-    .projects-column_one:hover {
-        box-shadow: 0px 0px 10px #333;
+        &:hover {
+            box-shadow: 0px 0px 10px #333;
+        }
     }
     .projects-column_two {
         padding: 0;
@@ -54,9 +54,9 @@
         h3 {
             font-size: 48px;
         }
-    }
-    .projects-column_two:hover {
-        box-shadow: 0px 0px 10px #333;
+        &:hover {
+            box-shadow: 0px 0px 10px #333;
+        }
     }
     .projects-column_three {
         padding: 0;
@@ -80,38 +80,8 @@
         h3 {
             font-size: 48px;
         }
-    }
-    .projects-column_three:hover {
-        box-shadow: 0px 0px 10px #333;
-    }
-    .active {
-        width: 10%;
-        transition: width .3s;
-        i {
-            color: @off-white;
-            text-align: center;
-            margin: auto;
-            display: flex;
-            justify-content: center;
-        }
-        h3 {
-            display: none;
-        }
-    }
-    .not-active {
-        width: 10%;
-        transition: width .3s;
-        &.projects-column_one {
-            float: left;
-        }
-        &.projects-column_two {
-            float: right;
-        }
-        &.projects-column_three {
-            float: right;
-        }
-        h3 {
-            display: none;
+        &:hover {
+            box-shadow: 0px 0px 10px #333;
         }
     }
 }
