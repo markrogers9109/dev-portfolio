@@ -9,9 +9,5 @@ angular.module('portfolio')
             url: '/home',
             templateUrl: 'views/home.html',
             controller: 'homeAnimationCtrl'
-        })
-        .state('about', {
-            url: '/about',
-            templateUrl: 'views/about.html'
         });
 });

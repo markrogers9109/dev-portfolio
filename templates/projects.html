@@ -1,20 +1,20 @@
-<div id="projects" class="projects-columns">
+<div class="projects-columns">
     <div id="skills"></div>
-    <div ng-click="oneSlide()" class="col-xs-12 col-md-4 projects-column_one">
+    <div  ng-click='selectProject(1)' ng-class="{active: checkSlide(1), 'not-active': slide!=1 && slide!=0, 'default': slide==0}"  class="col-xs-12 col-md-4 projects-column_one">
         <i class="fa fa-superpowers" aria-hidden="true"></i>
         <h3 class="display-three">Superpowers</h3>
     </div>
-    <super-powers id="super-powers"></super-powers>
+    <super-powers ng-class="{skill_open: slide==1, 'default': slide!=1}" id="super-powers"></super-powers>
     <div id="personal"></div>
-    <div ng-click="twoSlide()" class="col-xs-12 col-md-4 projects-column_two">
-        <i class="fa fa-user" ardia-hidden="true"></i>
-        <h3 class="display-three">Personal Projects</h3>
+    <div  ng-click='selectProject(2)' ng-class="{active: slide==2, 'not-active': slide!=2 && slide!=0, 'default': slide==0}"  class="col-xs-12 col-md-4 projects-column_two">
+        <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+        <h3 class="display-three">Experience</h3>
     </div>
-    <personal-projects id="personal-projects"></personal-projects>
+    <personal-projects ng-class="{personal_open: slide==2, 'default': slide!=2}" id="personal-projects"></personal-projects>
     <div id="team"></div>
-    <div ng-click="threeSlide()" class="col-xs-12 col-md-4 projects-column_three">
-        <i class="fa fa-users" aria-hidden="true"></i>
-        <h3 class="display-two">Team Projects</h3>
+    <div  ng-click='selectProject(3)' ng-class="{active: slide==3, 'not-active': slide!=3 && slide!=0, 'default': slide==0}" class="col-xs-12 col-md-4 projects-column_three">
+        <i class="fa fa-code" aria-hidden="true"></i>
+        <h3 class="display-two">Work</h3>
     </div>
-    <team-projects id="team-projects"></team-projects>
+    <team-projects ng-class="{team_open: slide==3, 'default': slide!=3}" id="team-projects"></team-projects>
 </div>

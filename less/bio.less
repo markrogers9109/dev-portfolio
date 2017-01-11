@@ -4,45 +4,93 @@
     height: 100%;
     background-color: @off-white;
     border-bottom: 2px solid @white;
-    padding: 3% 0;
     .bio-header {
-        padding: 10% 0;
+        width: 50%;
         h1 {
-            font-size: 125px;
+            font-size: 72px;
+            display: inline-flex;
+            margin: 15px;
             span {
                 color: @light-blue;
             }
         }
     }
-    .bio-picture {
-        display: flex;
-        img {
-            border: 15px solid #7dcbdf;
-            border-radius: 50%;
-            margin: -5px 5% 0 10%;
+    .bio-content_bg {
+        background: url('../images/mark-jeep.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color:  @off-white;
+        height: 400px;
+        padding: 0;
+        .bio-content_info {
+            background-color: rgba(91, 91, 92, 0.7);
+            padding: 15px;
+            height: 100%;
+            h1 {
+                font-size: 42px;
+                padding: 15px;
+                margin: 0;
+            }
+            h3 {
+                font-size: 38px;
+                font-weight: 300;
+                padding: 15px;
+                margin: 0;
+            }
+            p {
+                font-size: 24px;
+                padding: 15px;
+                margin: 0
+            }
         }
     }
-    hr {
-        background-color: #7dcbdf;
-        height: 5px;
-        width: 83%;
-        float: left;
-        margin-top: -6px;
+    .bio-social {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        a {
+            position: relative;
+            text-align: center;
+            color: @off-white;
+            background-color: @dark-blue;
+            width: 100%;
+            padding: 15px;
+            font-size: 42px;
+            &:first-child {
+                background-color: @dark-purple;
+            }
+            &:last-child {
+                background-color: @pastelle-red;
+            }
+        }
     }
     .bio-content {
-        padding: 15px;
-        h3 {
-            font-size: 38px;
-            font-weight: 300;
-        }
-        p {
-            font-size: 24px;
+        background-color: @gray;
+        height: 400px;
+        padding: 25px;
+        img {
+            border-radius: 50%;
+            height: 350px;
+            width: 350px;
+            display: block;
+            margin: auto;
         }
     }
-    .bio-sidebar {
-        padding: 30px;
-        h3 {
-            font-size: 18px;
+    .bio-links {
+        height: 90px;
+        padding: 0;
+        margin-top: -5px;
+        a {
+            height: 100%;
+            background-color: @op-blue;
+            color: @off-white;
+            &:first-child {
+                background-color: @light-blue;
+            }
+            h3 {
+                margin: 32px 0;
+            }
         }
     }
 }

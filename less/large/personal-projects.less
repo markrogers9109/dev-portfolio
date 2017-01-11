@@ -2,13 +2,19 @@
 
 
 personal-projects {
-    display: none;
+    display: inline-block;
     width: 0%;
     transition: 0.3s;
+    &.personal_open {
+        display: inline-block;
+        width: 70%;
+        transition: 0.3s;
+    }
     .personal-projects {
         height: 300px;
         background-color: @off-white;
         color: @off-white;
+        transition: 0.3s;
         .project-display_one {
             background: url('../../images/pet-store.jpg');
             background-size: contain;

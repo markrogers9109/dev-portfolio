@@ -3,6 +3,15 @@
 super-powers {
     background-color: @off-white;
     display: none;
+    height: 0%;
+    width: 0%;
+    transition: 0.3s;
+    &.skill_open {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        transition: 0.3s;
+    }
     .skills-container {
         height: 100%;
         .skill-levels {

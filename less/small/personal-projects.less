@@ -3,7 +3,15 @@
 
 personal-projects {
     display: none;
+    height: 0%;
+    width: 0%;
     transition: 0.3s;
+    &.personal_open {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        transition: 0.3s;
+    }
     .personal-projects {
         height: 100%;
         background-color: @off-white;
