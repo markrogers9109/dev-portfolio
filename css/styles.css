@@ -2877,7 +2877,7 @@ body {
     transform: rotate(-45deg) translate(4px, -8px);
   }
   .jumbotron.banner-home {
-    background: url('../../images/man-working-computer.jpg');
+    background: url('../images/man-working-computer.jpg');
     background-repeat: no-repeat;
     background-color: #7dcbdf;
     background-size: contain;
@@ -3048,7 +3048,7 @@ body {
   }
   personal-projects .personal-projects .personal-projects_one {
     height: 150px;
-    background-image: url('../../images/valley-hack.jpg');
+    background-image: url('../images/valley-hack.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -3056,7 +3056,7 @@ body {
   }
   personal-projects .personal-projects .personal-projects_two {
     height: 150px;
-    background-image: url('../../images/bitwise-logo.png');
+    background-image: url('../images/bitwise-logo.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -3064,7 +3064,7 @@ body {
   }
   personal-projects .personal-projects .personal-projects_three {
     height: 150px;
-    background-image: url('../../images/shift-three.jpg');
+    background-image: url('../images/shift-three.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -3072,14 +3072,14 @@ body {
   }
   personal-projects .personal-projects .personal-projects_four {
     height: 150px;
-    background-image: url('../../images/geekwise-logo.jpg');
+    background-image: url('../images/geekwise-logo.jpg');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     padding: 0;
   }
   personal-projects .personal-projects .project-display_one {
-    background: url('../../images/pet-store.jpg');
+    background: url('../images/pet-store.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 220px;
@@ -3112,7 +3112,7 @@ body {
     margin: 0 15px;
   }
   personal-projects .personal-projects .project-display_two {
-    background: url('../../images/restaurante.jpg');
+    background: url('../images/restaurante.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     height: 220px;
