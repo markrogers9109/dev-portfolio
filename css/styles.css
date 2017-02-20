@@ -546,6 +546,7 @@ super-powers .skills-container .col-xs-12 .progress .progress-bar {
 .bio-columns .bio-container .bio-content_info .frame {
   height: 100%;
   width: 100%;
+  max-width: 150px;
 }
 .bio-columns .bio-container .bio-content_info .about-content {
   display: flex;
