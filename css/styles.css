@@ -546,7 +546,7 @@ super-powers .skills-container .col-xs-12 .progress .progress-bar {
 .bio-columns .bio-container .bio-content_info .frame {
   height: 100%;
   width: 100%;
-  max-width: 150px;
+  max-width: 135px;
 }
 .bio-columns .bio-container .bio-content_info .about-content {
   display: flex;
@@ -558,7 +558,7 @@ super-powers .skills-container .col-xs-12 .progress .progress-bar {
 .bio-columns .bio-container .bio-content_info .about-content h1 {
   font-size: 58px;
   line-height: 1;
-  margin: 10px 0;
+  margin: 0 0 10px;
 }
 .bio-columns .bio-container .bio-content_info .about-content h3 {
   font-size: 32px;
