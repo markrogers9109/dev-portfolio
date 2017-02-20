@@ -6,84 +6,52 @@ team-projects {
     width: 0%;
     transition: 0.3s;
     &.team_open {
-        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 70%;
         transition: 0.3s;
     }
     .team-projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 300px;
         background-color: @off-white;
         color: @off-white;
         transition: 0.3s;
-        .project-display_three {
-            background: url('../../images/victims-desktop.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            height: 220px;
-            margin: 40px 0;
-            transition: 0.3s;
-            &:hover {
-                .project-button_container {
-                    height: auto;
-                    padding: 5px;
-                    margin-top: 160px;
-                    font-size: 16px;
-                    .btn-primary {
-                        border: 2px solid @off-white;
+        .team-project {
+            .modal-dialog {
+                .modal-content {
+                    .modal-body {
+                        color: #333;
+                        .modal-img_align {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #333;
+                            .col-md-5 {
+                                p {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
+                        h3 {
+                            padding: 15px;
+                        }
+                        .modal-lang_used {
+                            color: #333;
+                            display: flex;
+                            justify-content: space-around;
+                            p {
+                                font-size: 18px;
+                            }
+                            .img-responsive {
+                                max-width: 100px;
+                                margin: auto;
+                            }
+                        }
                     }
-                }
-            }
-            .project-button_container {
-                height: 0px;
-                width: 100%;
-                padding: 0px;
-                font-size: 0px;
-                background-color: @pastelle-red;
-                display: inline-flex;
-                // justify-content: space-around;
-                margin-top: 250px;
-                transition: 0.3s;
-                .btn-primary {
-                    background-color: transparent;
-                    color: @off-white;
-                    border: 0px solid @off-white;
-                    margin: 0 15px;
-                }
-            }
-        }
-        .project-display_four {
-            background: url('../../images/fab-five.png');
-            background-size: contain;
-            background-repeat: no-repeat;
-            height: 220px;
-            margin: 40px 0;
-            transition: 0.3s;
-            &:hover {
-                .project-button_container {
-                    height: auto;
-                    padding: 5px;
-                    margin-top: 190px;
-                    font-size: 16px;
-                    .btn-primary {
-                        border: 2px solid @off-white;
-                    }
-                }
-            }
-            .project-button_container {
-                height: 0px;
-                width: 100%;
-                padding: 0px;
-                font-size: 0px;
-                background-color: @pastelle-red;
-                display: inline-flex;
-                // justify-content: space-around;
-                margin-top: 250px;
-                transition: 0.3s;
-                .btn-primary {
-                    background-color: transparent;
-                    color: @off-white;
-                    border: 0px solid @off-white;
-                    margin: 0 15px;
                 }
             }
         }

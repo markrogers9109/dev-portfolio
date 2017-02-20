@@ -1,16 +1,16 @@
 <div ng-controller="homeAnimationCtrl" ng-class="{'show-sidebar': showNav==true}" class="navcontainer">
     <div class="main">
         <aside class="sidebar">
-          <nav class="nav">
+          <div class="nav">
             <ul class="nav-items">
               <li ng-click="toggleNav()" class="nav-title"><a class="smoothScroll" href="#top">[MR]</a></li>
-              <li ng-mousedown="selectProject(1)" ng-click="toggleNav(1)"><a href="#skills" id="scrollSkills" class="nav-link">Skills</a></li>
-              <li ng-click="toggleNav(2)"><a href="#personal" class="nav-link">Personal Projects</a></li>
-              <li ng-click="toggleNav(3)"><a href="#team" class="nav-link">Team Projects</a></li>
+              <li ng-click="toggleSlideNav(1)"><a href="#skills" id="scrollSkills" class="nav-link">Skills</a></li>
+              <li ng-click="toggleSlideNav(2)"><a href="#personal" class="nav-link">Experience</a></li>
+              <li ng-click="toggleSlideNav(3)"><a href="#team" class="nav-link">Work</a></li>
               <li ng-click="toggleNav()"><a href="#about" class="nav-link smoothScroll">About Me</a></li>
               <li ng-click="toggleNav()"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-          </nav>
+        </div>
         </aside>
         <div ng-click="toggleNav()" class="hamburger">
           <div class="bar"></div>
