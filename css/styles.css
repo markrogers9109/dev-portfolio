@@ -907,7 +907,7 @@ body {
     background-size: contain;
     background-position: center;
     overflow: hidden;
-    height: 650px;
+    height: 450px;
     padding: 0;
     color: #F7FBFC;
     margin-bottom: 0;
@@ -1137,71 +1137,78 @@ body {
     background-color: #F7FBFC;
     color: #F7FBFC;
   }
-  team-projects .team-projects .project-display_three {
-    background: url('../../images/pet-store.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 220px;
-    margin: 40px 0;
-    transition: 0.3s;
+  team-projects .team-projects .team-project .modal-dialog .modal-content {
+    border-radius: 0;
+    border-bottom: 4px solid #E74E4E;
   }
-  team-projects .team-projects .project-display_three:hover .project-button_container {
-    height: auto;
-    padding: 5px;
-    margin-top: 190px;
-    font-size: 16px;
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header {
+    border-bottom: 0;
   }
-  team-projects .team-projects .project-display_three:hover .project-button_container .btn-primary {
-    border: 2px solid #F7FBFC;
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close {
+    padding: 0 15px;
   }
-  team-projects .team-projects .project-display_three .project-button_container {
-    height: 0px;
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 0px;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close span {
+    font-size: 42px;
+    transition: all 0.2s linear;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body {
+    color: #333;
+    border-bottom: 0;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align a.button-underline {
+    position: relative;
+    color: #E74E4E;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 2.5px 0;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align a.button-underline:hover {
+    color: #E74E4E;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align a.button-underline:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align a.button-underline:before {
+    content: "";
+    position: absolute;
     width: 100%;
-    padding: 0px;
-    font-size: 0px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
     background-color: #E74E4E;
-    display: inline-flex;
-    margin-top: 250px;
-    transition: 0.3s;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
   }
-  team-projects .team-projects .project-display_three .project-button_container .btn-primary {
-    background-color: transparent;
-    color: #F7FBFC;
-    border: 0px solid #F7FBFC;
-    margin: 0 15px;
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align .col-md-6 p {
+    font-size: 18px;
   }
-  team-projects .team-projects .project-display_four {
-    background: url('../../images/restaurante.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 220px;
-    margin: 40px 0;
-    transition: 0.3s;
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-footer {
+    border-top: 0;
   }
-  team-projects .team-projects .project-display_four:hover .project-button_container {
-    height: auto;
-    padding: 5px;
-    margin-top: 190px;
-    font-size: 16px;
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-footer h3 {
+    display: none;
   }
-  team-projects .team-projects .project-display_four:hover .project-button_container .btn-primary {
-    border: 2px solid #F7FBFC;
-  }
-  team-projects .team-projects .project-display_four .project-button_container {
-    height: 0px;
-    width: 100%;
-    padding: 0px;
-    font-size: 0px;
-    background-color: #E74E4E;
-    display: inline-flex;
-    margin-top: 250px;
-    transition: 0.3s;
-  }
-  team-projects .team-projects .project-display_four .project-button_container .btn-primary {
-    background-color: transparent;
-    color: #F7FBFC;
-    border: 0px solid #F7FBFC;
-    margin: 0 15px;
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-footer .modal-lang_used {
+    display: none;
   }
   super-powers {
     background-color: #F7FBFC;
@@ -3175,16 +3182,11 @@ body {
   }
   team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close {
     padding: 0 15px;
-  }
-  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close:hover {
-    color: #E74E4E;
-  }
-  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close:hover span {
-    transition: all 0.1s linear;
+    transition: all 0.2s linear;
   }
   team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close span {
     font-size: 42px;
-    transition: all 0.1s linear;
+    transition: all 0.2s linear;
   }
   team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body {
     color: #333;
@@ -3192,6 +3194,7 @@ body {
   }
   team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     color: #333;
@@ -3200,7 +3203,7 @@ body {
     position: relative;
     color: #E74E4E;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 700;
     padding: 2.5px 0;
   }
@@ -3236,6 +3239,7 @@ body {
     border-top: 0;
   }
   team-projects .team-projects .team-project .modal-dialog .modal-content .modal-footer h3 {
+    display: block;
     padding: 15px;
     color: #333;
     text-align: left;
