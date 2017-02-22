@@ -3147,7 +3147,7 @@ body {
   }
   team-projects {
     display: inline-block;
-    width: 0%;
+    width: 0;
     transition: 0.3s;
   }
   team-projects.team_open {
@@ -3166,8 +3166,29 @@ body {
     color: #F7FBFC;
     transition: 0.3s;
   }
+  team-projects .team-projects .team-project .modal-dialog .modal-content {
+    border-radius: 0;
+    border-bottom: 4px solid #E74E4E;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header {
+    border-bottom: 0;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close {
+    padding: 0 15px;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close:hover {
+    color: #E74E4E;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close:hover span {
+    transition: all 0.1s linear;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-header .close span {
+    font-size: 42px;
+    transition: all 0.1s linear;
+  }
   team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body {
     color: #333;
+    border-bottom: 0;
   }
   team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align {
     display: flex;
@@ -3175,21 +3196,59 @@ body {
     align-items: center;
     color: #333;
   }
-  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align .col-md-5 p {
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align a.button-underline {
+    position: relative;
+    color: #E74E4E;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 2.5px 0;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align a.button-underline:hover {
+    color: #E74E4E;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align a.button-underline:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align a.button-underline:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #E74E4E;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align .col-md-6 {
+    padding-right: 30px;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-img_align .col-md-6 p {
     font-size: 18px;
   }
-  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body h3 {
-    padding: 15px;
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-footer {
+    border-top: 0;
   }
-  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-lang_used {
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-footer h3 {
+    padding: 15px;
+    color: #333;
+    text-align: left;
+  }
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-footer .modal-lang_used {
     color: #333;
     display: flex;
     justify-content: space-around;
   }
-  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-lang_used p {
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-footer .modal-lang_used p {
     font-size: 18px;
   }
-  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-body .modal-lang_used .img-responsive {
+  team-projects .team-projects .team-project .modal-dialog .modal-content .modal-footer .modal-lang_used .img-responsive {
     max-width: 100px;
     margin: auto;
   }
