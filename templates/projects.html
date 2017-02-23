@@ -1,20 +1,153 @@
 <div class="projects-columns">
     <div id="skills"></div>
-    <div  ng-click='selectProject(1)' ng-class="{active: slide==1, 'not-active': slide!=1 && slide!=0, 'default': slide==0}"  class="col-xs-12 col-md-4 projects-column_one" id="rippleParent">
+    <div ng-click='selectProject(1)' ng-class="{active: slide==1, 'not-active': slide!=1 && slide!=0, 'default': slide==0}" class="col-xs-12 col-md-4 projects-column_one" id="rippleParent">
         <i class="fa fa-superpowers" aria-hidden="true"></i>
         <h3 class="display-three">Superpowers</h3>
     </div>
     <super-powers ng-class="{skill_open: slide==1, 'default': slide!=1}" id="super-powers"></super-powers>
-    <div id="personal"></div>
-    <div  ng-click='selectProject(2)' ng-class="{active: slide==2, 'not-active': slide!=2 && slide!=0, 'default': slide==0}"  class="col-xs-12 col-md-4 projects-column_two">
+    <div id="personal" ng-click='selectProject(2)' ng-class="{active: slide==2, 'not-active': slide!=2 && slide!=0, 'default': slide==0}" class="col-xs-12 col-md-4 projects-column_two">
         <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
         <h3 class="display-three">Experience</h3>
     </div>
     <personal-projects ng-class="{personal_open: slide==2, 'default': slide!=2}" id="personal-projects"></personal-projects>
-    <div id="team"></div>
-    <div  ng-click='selectProject(3)' ng-class="{active: slide==3, 'not-active': slide!=3 && slide!=0, 'default': slide==0}" class="col-xs-12 col-md-4 projects-column_three">
+    <!-- <div id="team"></div> -->
+    <div id="team" ng-click='selectProject(3)' ng-class="{active: slide==3, 'not-active': slide!=3 && slide!=0, 'default': slide==0}" class="col-xs-12 col-md-4 projects-column_three">
         <i class="fa fa-code" aria-hidden="true"></i>
         <h3 class="display-two">Work</h3>
     </div>
     <team-projects ng-class="{team_open: slide==3, 'default': slide!=3}" id="team-projects"></team-projects>
+</div>
+
+<div class="panel-group projects-mobile" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default" id="skillsMobile">
+        <div class="panel-heading projects-column_one" id="rippleParent" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+            <i class="fa fa-superpowers" aria-hidden="true"></i>
+            <h3 class="display-three">Superpowers</h3>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <super-powers></super-powers>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default" id="expMobile">
+        <div class="panel-heading projects-column_two" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <i class="fa fa-puzzle-piece" aria-hidden="true"></i>
+            <h3 class="display-three">Experience</h3>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+                <personal-projects></personal-projects>
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default" id="workMobile">
+        <div class="panel-heading projects-column_three" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            <i class="fa fa-code" aria-hidden="true"></i>
+            <h3 class="display-two">Work</h3>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body team-projects">
+                <div class="col-xs-12 col-md-6">
+                    <ul class="grid cs-style-4">
+                        <li>
+                            <figure>
+                                <div><img src="images/victims-desktop.png" alt="img05"></div>
+                                <figcaption>
+                                    <h3>1800 Victims</h3>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#team-mobile_one">More Details</button>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <ul class="grid cs-style-4">
+                        <li>
+                            <figure>
+                                <div><img src="images/fab-five.png" alt="img05"></div>
+                                <figcaption>
+                                    <h3>Fab 5</h3>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#team-mobile_two">More Details</button>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade team-project" id="team-mobile_one" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-img_align">
+                    <div class="col-md-6">
+                        <h2>1800 Victims</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima mollitia nihil, molestias at consequatur beatae tempora aspernatur sed dolorum, dolores quos ut tenetur asperiores molestiae!</p>
+                        <a href="http://1800.shift3sandbox.com/" class="button-underline" target="_blank">Visit Site</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/victims-responsive.png" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <h3>Languages / Frameworks Used</h3>
+                <div class="modal-lang_used">
+                    <p>HTML</p>
+                    <p>Bootstrap</p>
+                    <p>CSS</p>
+                    <p>Less</p>
+                    <p>Javascript</p>
+                    <p>jQuery</p>
+                    <p>php</p>
+                    <p>Wordpress</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade team-project" id="team-mobile_two" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-img_align">
+                    <div class="col-md-6">
+                        <h2>Fab Five</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, dolorem odit soluta quibusdam, aliquam tempora distinctio in amet, labore quas autem. Neque, odio explicabo dolorem.</p>
+                        <a href="http://104.131.141.79:3000/#!/home" class="button-underline" target="_blank">Visit Site</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/fab-responsive.png" alt="" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <h3>Languages / Frameworks Used</h3>
+                <div class="modal-lang_used">
+                    <p>HTML</p>
+                    <p>Bootstrap</p>
+                    <p>CSS</p>
+                    <p>Less</p>
+                    <p>jQuery</p>
+                    <p>Angular</p>
+                    <p>Node js</p>
+                    <p>Express js</p>
+                    <p>MongoDB</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

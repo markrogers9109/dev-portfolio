@@ -1,16 +1,11 @@
 @import "../color-scheme.less";
 
 super-powers {
-    display: none;
-    height: 0%;
-    width: 0%;
+    background-color: @off-white;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
     transition: 0.3s;
-    &.skill_open {
-        display: inline-block;
-        height: 100%;
-        width: 100%;
-        transition: 0.3s;
-    }
     .skills-container {
         height: 100%;
         .skill-levels {
@@ -25,7 +20,8 @@ super-powers {
                 border-right: 1px solid @op-blue;
             }
             h3 {
-                font-size: 16px;
+                color: @gray;
+                font-size: 14px;
                 width: 25%;
                 padding: 15px 0;
                 text-align: center;

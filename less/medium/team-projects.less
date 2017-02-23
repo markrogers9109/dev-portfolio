@@ -1,83 +1,137 @@
 @import "../color-scheme.less";
 
-
 team-projects {
-    display: none;
-    width: 0%;
+    display: inline-block;
+    width: 0;
     transition: 0.3s;
+
+    &.team_open {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        transition: 0.3s;
+        .team-projects {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+            background-color: @off-white;
+            color: @off-white;
+            transition: 0.3s;
+            .col-xs-12 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
     .team-projects {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         height: 300px;
         background-color: @off-white;
         color: @off-white;
-        .project-display_three {
-            background: url('../../images/pet-store.jpg');
-            background-size: contain;
-            background-repeat: no-repeat;
-            height: 220px;
-            margin: 40px 0;
-            transition: 0.3s;
-            &:hover {
-                .project-button_container {
-                    height: auto;
-                    padding: 5px;
-                    margin-top: 190px;
-                    font-size: 16px;
-                    .btn-primary {
-                        border: 2px solid @off-white;
+        transition: 0.3s;
+
+        .team-project {
+            .modal-dialog {
+                .modal-content {
+                    border-radius: 0;
+                    border-bottom: 4px solid @pastelle-red;
+
+                    .modal-header {
+                        border-bottom: 0;
+                        .close {
+                            padding: 0 15px;
+                            transition: all 0.2s linear;
+                            span {
+                                font-size: 42px;
+                                transition: all 0.2s linear;
+                            }
+                        }
                     }
-                }
-            }
-            .project-button_container {
-                height: 0px;
-                width: 100%;
-                padding: 0px;
-                font-size: 0px;
-                background-color: @pastelle-red;
-                display: inline-flex;
-                // justify-content: space-around;
-                margin-top: 250px;
-                transition: 0.3s;
-                .btn-primary {
-                    background-color: transparent;
-                    color: @off-white;
-                    border: 0px solid @off-white;
-                    margin: 0 15px;
-                }
-            }
-        }
-        .project-display_four {
-            background: url('../../images/restaurante.jpg');
-            background-size: contain;
-            background-repeat: no-repeat;
-            height: 220px;
-            margin: 40px 0;
-            transition: 0.3s;
-            &:hover {
-                .project-button_container {
-                    height: auto;
-                    padding: 5px;
-                    margin-top: 190px;
-                    font-size: 16px;
-                    .btn-primary {
-                        border: 2px solid @off-white;
+
+                    .modal-body {
+                        color: #333;
+                        border-bottom: 0;
+
+                        .modal-img_align {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            align-items: center;
+                            color: #333;
+
+                            a.button-underline {
+                                position: relative;
+                                color: @pastelle-red;
+                                text-decoration: none;
+                                font-size: 24px;
+                                font-weight: 700;
+                                padding: 2.5px 0;
+                                &:hover {
+                                    color: @pastelle-red;
+                                    &:before {
+                                        visibility: visible;
+                                        -webkit-transform: scaleX(1);
+                                        transform: scaleX(1);
+                                    }
+                                }
+                                &:before {
+                                    content: "";
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 2px;
+                                    bottom: 0;
+                                    left: 0;
+                                    background-color: @pastelle-red;
+                                    visibility: hidden;
+                                    -webkit-transform: scaleX(0);
+                                    transform: scaleX(0);
+                                    -webkit-transition: all 0.2s ease-in-out 0s;
+                                    transition: all 0.2s ease-in-out 0s;
+                                }
+                            }
+
+                            .col-md-6 {
+                                padding-right: 30px;
+                                p {
+                                    font-size: 18px;
+                                }
+                            }
+                        }
                     }
-                }
-            }
-            .project-button_container {
-                height: 0px;
-                width: 100%;
-                padding: 0px;
-                font-size: 0px;
-                background-color: @pastelle-red;
-                display: inline-flex;
-                // justify-content: space-around;
-                margin-top: 250px;
-                transition: 0.3s;
-                .btn-primary {
-                    background-color: transparent;
-                    color: @off-white;
-                    border: 0px solid @off-white;
-                    margin: 0 15px;
+
+                    .modal-footer {
+                        border-top: 0;
+
+                        h3 {
+                            display: block;
+                            padding: 15px;
+                            color: #333;
+                            text-align: left;
+                        }
+
+                        .modal-lang_used {
+                            color: #333;
+                            display: flex;
+                            justify-content: space-around;
+
+                            p {
+                                font-size: 18px;
+                            }
+
+                            .img-responsive {
+                                max-width: 100px;
+                                margin: auto;
+                            }
+                        }
+                    }
                 }
             }
         }

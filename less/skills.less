@@ -1,4 +1,4 @@
-@import "color-scheme.less";
+
 
 super-powers {
     background-color: @off-white;
@@ -9,13 +9,22 @@ super-powers {
         display: inline-block;
         width: 70%;
         transition: 0.3s;
+        .skills-container {
+            .skill-levels {
+                h3 {
+                    color: @gray;
+                }
+            }
+        }
     }
     .skills-container {
         height: 100%;
+        transition: 0.3s;
         .skill-levels {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            transition: 0.3s;
             .skill-border_left {
                 border-left: 1px solid @op-blue;
             }
@@ -24,20 +33,12 @@ super-powers {
                 border-right: 1px solid @op-blue;
             }
             h3 {
+                font-size: 24px;
+                color: transparent;
                 width: 25%;
                 padding: 15px 0;
                 text-align: center;
                 margin-top: 0;
-            }
-        }
-        .col-xs-12 {
-            .progress {
-                height: 24px;
-                margin-bottom: 15px;
-                .progress-bar {
-                    font-size: 16px;
-                    line-height: 24px;
-                }
             }
         }
     }

@@ -2,10 +2,15 @@
 @import "personal-projects.less";
 @import "team-projects.less";
 
+.projects-mobile {
+    display: none;
+}
+
 .projects-columns {
-    height: 100%;
+    height: 300px;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
     .projects-column_one {
         padding: 0;
         background-color: @dark-blue;
@@ -95,7 +100,7 @@
             justify-content: center;
         }
         h3 {
-            display: none;
+            color: transparent;
         }
     }
     .not-active {
@@ -111,7 +116,10 @@
             float: right;
         }
         h3 {
-            display: none;
+            color: transparent;
         }
+    }
+    .default {
+        transition: 0.3s;
     }
 }

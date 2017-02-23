@@ -46,7 +46,8 @@
                         color: @off-white;
                     }
 
-                    li {
+                    li.nav-mobile {
+                        display: list-item;
                         .nav-link {
                             display: block;
                             padding: 10px 50px;
@@ -57,6 +58,9 @@
                                 background-color: @pastelle-red;
                             }
                         }
+                    }
+                    li.nav-full {
+                        display: none;
                     }
                 }
             }
