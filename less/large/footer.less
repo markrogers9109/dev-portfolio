@@ -1,4 +1,4 @@
-@import "color-scheme.less";
+@import "../color-scheme.less";
 
 .footer {
     background-color: @pastelle-red;
@@ -9,12 +9,31 @@
         .footer-column_one,
         .footer-column_two,
         .footer-column_three {
+            padding: 15px;
             hr {
+                display: block;
                 color: @off-white;
+            }
+            h2 {
+                font-size: 30px;
             }
             a {
                 color: @pastelle-red;
                 text-decoration: none;
+                float: none;
+            }
+            .fa-stack {
+                width: 6em;
+                height: 6em;
+                line-height: 6em;
+                .fa-circle {
+                    color: @off-white;
+                    font-size: 6em;
+                }
+                .fa-stack-1x {
+                    color: @pastelle-red;
+                    font-size: 2.25em;
+                }
             }
         }
         .footer-social {
@@ -22,9 +41,19 @@
             display: flex;
             justify-content: center;
             a {
-                margin: 2%;
-                .fa-stack-1x {
-
+                margin: 2% 2% 0;
+                .fa-stack {
+                    width: 4em;
+                    height: 4em;
+                    line-height: 4em;
+                    .fa-circle {
+                        color: @pastelle-red;
+                        font-size: 4em;
+                    }
+                    .fa-stack-1x {
+                        color: @off-white;
+                        font-size: 2em;
+                    }
                 }
             }
         }

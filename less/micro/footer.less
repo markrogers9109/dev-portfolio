@@ -5,16 +5,36 @@
     background-size: cover;
     text-align: center;
     .footer-content {
+        padding: 15px;
         color: @off-white;
         .footer-column_one,
         .footer-column_two,
         .footer-column_three {
+            padding: 15px 0;
             hr {
+                display: none;
                 color: @off-white;
+            }
+            h2 {
+                font-size: 24px;
             }
             a {
                 color: @pastelle-red;
                 text-decoration: none;
+                float: left;
+            }
+            .fa-stack {
+                width: 4em;
+                height: 4em;
+                line-height: 4em;
+                .fa-circle {
+                    color: @off-white;
+                    font-size: 4em;
+                }
+                .fa-stack-1x {
+                    color: @pastelle-red;
+                    font-size: 1.5em;
+                }
             }
         }
         .footer-social {
@@ -23,8 +43,18 @@
             justify-content: center;
             a {
                 margin: 2%;
-                .fa-stack-1x {
-                    
+                .fa-stack {
+                    width: 3em;
+                    height: 3em;
+                    line-height: 3em;
+                    .fa-circle {
+                        color: @pastelle-red;
+                        font-size: 3em;
+                    }
+                    .fa-stack-1x {
+                        color: @off-white;
+                        font-size: 1.5em;
+                    }
                 }
             }
         }
