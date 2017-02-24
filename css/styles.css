@@ -913,17 +913,18 @@ body {
     background-size: contain;
     background-position: center;
     overflow: hidden;
-    height: 450px;
+    height: 500px;
     padding: 0;
     color: #F7FBFC;
     margin-bottom: 0;
   }
   .jumbotron.banner-home .logo {
     font-size: 48px;
+    margin-top: 14px;
     margin-left: 20px;
   }
   .jumbotron.banner-home .banner-home_content {
-    margin-top: 22.1%;
+    margin-top: 45%;
     height: 100%;
     text-align: center;
     color: #F7FBFC;
@@ -939,7 +940,7 @@ body {
   .bio-columns {
     height: 100%;
     background-color: #fff;
-    padding: 30px 0;
+    padding: 0;
   }
   .bio-columns .bio-container {
     padding: 15px;
@@ -949,7 +950,7 @@ body {
     align-items: center;
     flex-direction: column-reverse;
     justify-content: center;
-    padding: 15px 0;
+    padding: 0;
   }
   .bio-columns .bio-container .bio-content_info .frame {
     display: none;
@@ -958,7 +959,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 15px 0;
+    padding: 0;
     text-align: center;
   }
   .bio-columns .bio-container .bio-content_info .about-content h1 {
@@ -977,7 +978,7 @@ body {
   }
   .bio-columns .bio-container .bio-content_info .profile-pic {
     border-radius: 50%;
-    width: 365px;
+    width: 50%;
   }
   .projects-mobile .panel.panel-default {
     border: 0;
@@ -991,7 +992,6 @@ body {
   .projects-mobile .projects-column_one {
     display: flex;
     align-items: center;
-    padding: 0;
     background-color: #2273AA;
     height: 100%;
     padding: 15px;
@@ -1003,15 +1003,17 @@ body {
   .projects-mobile .projects-column_one h3 {
     color: #F7FBFC;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .projects-mobile .projects-column_one i {
-    font-size: 70px;
+    font-size: 56px;
   }
   .projects-mobile .projects-column_one h3 {
     font-size: 40px;
+    margin: 0;
   }
   .projects-mobile .projects-column_one:hover {
     cursor: pointer;
@@ -1020,7 +1022,6 @@ body {
   .projects-mobile .projects-column_two {
     display: flex;
     align-items: center;
-    padding: 0;
     background-color: #263650;
     height: 100%;
     padding: 15px;
@@ -1032,15 +1033,17 @@ body {
   .projects-mobile .projects-column_two h3 {
     color: #F7FBFC;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .projects-mobile .projects-column_two i {
-    font-size: 70px;
+    font-size: 56px;
   }
   .projects-mobile .projects-column_two h3 {
     font-size: 40px;
+    margin: 0;
   }
   .projects-mobile .projects-column_two:hover {
     cursor: pointer;
@@ -1049,7 +1052,6 @@ body {
   .projects-mobile .projects-column_three {
     display: flex;
     align-items: center;
-    padding: 0;
     background-color: #E74E4E;
     height: 100%;
     padding: 15px;
@@ -1061,15 +1063,17 @@ body {
   .projects-mobile .projects-column_three h3 {
     color: #F7FBFC;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .projects-mobile .projects-column_three i {
-    font-size: 70px;
+    font-size: 56px;
   }
   .projects-mobile .projects-column_three h3 {
     font-size: 40px;
+    margin: 0;
   }
   .projects-mobile .projects-column_three:hover {
     cursor: pointer;
@@ -1229,6 +1233,29 @@ body {
     padding: 15px 0;
     text-align: center;
     margin-top: 0;
+  }
+  .home-content {
+    background-color: #F7FBFC;
+    padding: 15px 0 30px;
+    text-align: center;
+  }
+  .home-content .col-xs-12.content-left {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .home-content .col-xs-12.content-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .home-content .col-xs-12 h3 {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  .home-content .col-xs-12 img {
+    width: 30%;
+    margin: auto;
   }
   .footer {
     background-color: #E74E4E;
@@ -1452,7 +1479,7 @@ body {
     margin-left: 20px;
   }
   .jumbotron.banner-home .banner-home_content {
-    margin-top: 22.1%;
+    margin-top: 45%;
     height: 100%;
     text-align: center;
     color: #F7FBFC;
@@ -1880,7 +1907,7 @@ body {
     background-size: contain;
     background-position: center;
     overflow: hidden;
-    height: 650px;
+    height: 550px;
     padding: 0;
     color: #F7FBFC;
     margin-bottom: 0;
@@ -1890,7 +1917,7 @@ body {
     margin-left: 20px;
   }
   .jumbotron.banner-home .banner-home_content {
-    margin-top: 22.1%;
+    margin-top: 45%;
     height: 100%;
     text-align: center;
     color: #F7FBFC;
@@ -2747,6 +2774,50 @@ body {
     text-align: center;
     margin-top: 0;
   }
+  .bio-columns {
+    height: 100%;
+    background-color: #fff;
+    padding: 30px 0;
+  }
+  .bio-columns .bio-container {
+    padding: 15px 30px 15px 0;
+  }
+  .bio-columns .bio-container .bio-content_info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .bio-columns .bio-container .bio-content_info .frame {
+    display: block;
+    height: 100%;
+    width: 100%;
+    max-width: 135px;
+  }
+  .bio-columns .bio-container .bio-content_info .about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+    text-align: center;
+  }
+  .bio-columns .bio-container .bio-content_info .about-content h1 {
+    font-size: 58px;
+    line-height: 1;
+    margin: 0 0 10px;
+  }
+  .bio-columns .bio-container .bio-content_info .about-content h3 {
+    font-size: 32px;
+    line-height: 1;
+    margin: 10px 0;
+    font-weight: 100;
+  }
+  .bio-columns .bio-container .bio-content_info .about-content p {
+    font-size: 18px;
+  }
+  .bio-columns .bio-container .bio-content_info .profile-pic {
+    border-radius: 50%;
+    width: 270px;
+  }
   .footer {
     background-color: #E74E4E;
     background-size: cover;
@@ -3425,6 +3496,25 @@ body {
     padding: 15px 0;
     text-align: center;
     margin-top: 0;
+  }
+  .home-content {
+    background-color: #F7FBFC;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .home-content .col-xs-12.content-left {
+    display: block;
+  }
+  .home-content .col-xs-12.content-right {
+    display: block;
+  }
+  .home-content .col-xs-12 h3 {
+    font-size: 24px;
+    padding: 5px;
+  }
+  .home-content .col-xs-12 img {
+    width: 75%;
+    margin: auto;
   }
   .footer {
     background-color: #E74E4E;
