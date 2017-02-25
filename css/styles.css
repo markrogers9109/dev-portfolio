@@ -809,9 +809,9 @@ body {
   .navcontainer .main .sidebar .nav .nav-items .nav-title {
     display: block;
     padding: 10px 50px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #F7FBFC;
+  }
+  .navcontainer .main .sidebar .nav .nav-items .nav-title a .logo {
+    height: 46px;
   }
   .navcontainer .main .sidebar .nav .nav-items li.nav-mobile {
     display: list-item;
@@ -919,8 +919,8 @@ body {
     margin-bottom: 0;
   }
   .jumbotron.banner-home .logo {
-    font-size: 48px;
-    margin-top: 14px;
+    height: 46px;
+    margin-top: 16px;
     margin-left: 20px;
   }
   .jumbotron.banner-home .banner-home_content {
