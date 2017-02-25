@@ -1010,6 +1010,7 @@ body {
   }
   .projects-mobile .projects-column_one i {
     font-size: 56px;
+    padding: 5px 15px;
   }
   .projects-mobile .projects-column_one h3 {
     font-size: 40px;
@@ -1040,6 +1041,7 @@ body {
   }
   .projects-mobile .projects-column_two i {
     font-size: 56px;
+    padding: 5px 15px;
   }
   .projects-mobile .projects-column_two h3 {
     font-size: 40px;
@@ -1070,6 +1072,7 @@ body {
   }
   .projects-mobile .projects-column_three i {
     font-size: 56px;
+    padding: 5px 15px;
   }
   .projects-mobile .projects-column_three h3 {
     font-size: 40px;
@@ -1281,6 +1284,13 @@ body {
   .footer .footer-content .footer-column_two h2,
   .footer .footer-content .footer-column_three h2 {
     font-size: 24px;
+    line-height: 2em;
+    margin: 0;
+  }
+  .footer .footer-content .footer-column_one p,
+  .footer .footer-content .footer-column_two p,
+  .footer .footer-content .footer-column_three p {
+    line-height: 1em;
   }
   .footer .footer-content .footer-column_one a,
   .footer .footer-content .footer-column_two a,
