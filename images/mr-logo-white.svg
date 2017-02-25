@@ -16,7 +16,7 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="mr-logo-white.svg"
-   inkscape:export-filename="/home/mark/mr-logo.png"
+   inkscape:export-filename="/home/mark/mr-logo-white.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -71,10 +71,10 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.1777038"
-     inkscape:cx="184.81294"
+     inkscape:cx="135.87823"
      inkscape:cy="90.159441"
      inkscape:document-units="px"
      inkscape:current-layer="layer3"
@@ -98,7 +98,8 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     borderlayer="true">
     <inkscape:grid
        type="xygrid"
        id="grid4167"
@@ -178,20 +179,20 @@
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4150"
        width="5"
-       height="180.39195"
+       height="180.07726"
        x="450"
-       y="162.36217" />
+       y="162.67686" />
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4154"
        width="5"
-       height="180.39191"
+       height="180.07721"
        x="470"
-       y="162.3622" />
+       y="162.6769" />
     <rect
-       y="162.3622"
+       y="162.6769"
        x="460"
-       height="180.39191"
+       height="180.07721"
        width="5"
        id="rect4156"
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
