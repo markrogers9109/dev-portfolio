@@ -1058,6 +1058,24 @@ body {
     height: 100%;
     padding: 15px;
   }
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .no-touch .cs-style-4 figure img,
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .cs-style-4 figure.cs-hover img {
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .no-touch .cs-style-4 figure figcaption,
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .cs-style-4 figure.cs-hover figcaption {
+    opacity: 1;
+    box-shadow: 2px 0px 8px rgba(51, 51, 51, 0.8);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+  }
   .projects-mobile .projects-column_three a {
     text-decoration: none;
   }
@@ -1575,6 +1593,24 @@ body {
     height: 100%;
     padding: 30px;
   }
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .no-touch .cs-style-4 figure img,
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .cs-style-4 figure.cs-hover img {
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .no-touch .cs-style-4 figure figcaption,
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .cs-style-4 figure.cs-hover figcaption {
+    opacity: 1;
+    box-shadow: 2px 0px 8px rgba(51, 51, 51, 0.8);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+  }
   .projects-mobile .projects-column_three a {
     text-decoration: none;
   }
@@ -2012,6 +2048,24 @@ body {
     background-color: #E74E4E;
     height: 100%;
     padding: 30px;
+  }
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .no-touch .cs-style-4 figure img,
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .cs-style-4 figure.cs-hover img {
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .no-touch .cs-style-4 figure figcaption,
+  .projects-mobile .projects-column_three ~ .collapse.in .team-projects .col-xs-12 .cs-style-4 figure.cs-hover figcaption {
+    opacity: 1;
+    box-shadow: 2px 0px 8px rgba(51, 51, 51, 0.8);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
   }
   .projects-mobile .projects-column_three a {
     text-decoration: none;
