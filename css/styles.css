@@ -1839,6 +1839,7 @@ body {
   }
   .projects-columns .projects-column_one:hover {
     box-shadow: 0px 0px 10px #333;
+    cursor: pointer;
   }
   .projects-columns .projects-column_two {
     padding: 0;
@@ -1866,6 +1867,7 @@ body {
   }
   .projects-columns .projects-column_two:hover {
     box-shadow: 0px 0px 10px #333;
+    cursor: pointer;
   }
   .projects-columns .projects-column_three {
     padding: 0;
@@ -1893,6 +1895,7 @@ body {
   }
   .projects-columns .projects-column_three:hover {
     box-shadow: 0px 0px 10px #333;
+    cursor: pointer;
   }
   .projects-columns .active {
     width: 10%;
@@ -2561,6 +2564,7 @@ body {
   }
   .projects-columns .projects-column_one:hover {
     box-shadow: 0px 0px 10px #333;
+    cursor: pointer;
   }
   .projects-columns .projects-column_two {
     padding: 0;
@@ -2588,6 +2592,7 @@ body {
   }
   .projects-columns .projects-column_two:hover {
     box-shadow: 0px 0px 10px #333;
+    cursor: pointer;
   }
   .projects-columns .projects-column_three {
     padding: 0;
@@ -2615,6 +2620,7 @@ body {
   }
   .projects-columns .projects-column_three:hover {
     box-shadow: 0px 0px 10px #333;
+    cursor: pointer;
   }
   .projects-columns .active {
     width: 10%;
