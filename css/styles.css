@@ -580,6 +580,14 @@ body {
     background-repeat: no-repeat;
     padding: 0;
   }
+  personal-projects .personal-projects .personal-projects_threeDOC {
+    height: 135px;
+    background-image: url('../images/59DOC.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
   personal-projects .personal-projects .personal-projects_four {
     height: 150px;
     background-image: url('../images/geekwise-logo.jpg');
@@ -1111,6 +1119,14 @@ body {
     background-repeat: no-repeat;
     padding: 0;
   }
+  personal-projects .personal-projects .personal-projects_threeDOC {
+    height: 135px;
+    background-image: url('../images/59DOC.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
   personal-projects .personal-projects .personal-projects_four {
     height: 150px;
     background-image: url('../images/geekwise-logo.jpg');
@@ -1567,6 +1583,14 @@ body {
     background-repeat: no-repeat;
     padding: 0;
   }
+  personal-projects .personal-projects .personal-projects_threeDOC {
+    height: 135px;
+    background-image: url('../images/59DOC.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
   personal-projects .personal-projects .personal-projects_four {
     height: 150px;
     background-image: url('../images/geekwise-logo.jpg');
@@ -1974,6 +1998,14 @@ body {
     background-repeat: no-repeat;
     padding: 0;
   }
+  personal-projects .personal-projects .personal-projects_threeDOC {
+    height: 135px;
+    background-image: url('../images/59DOC.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
   personal-projects .personal-projects .personal-projects_four {
     height: 150px;
     background-image: url('../images/geekwise-logo.jpg');
@@ -1981,72 +2013,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     padding: 0;
-  }
-  personal-projects .personal-projects .project-display_one {
-    background: url('../images/pet-store.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 220px;
-    margin: 40px 0;
-    transition: 0.3s;
-  }
-  personal-projects .personal-projects .project-display_one:hover .project-button_container {
-    height: auto;
-    padding: 5px;
-    margin-top: 190px;
-    font-size: 16px;
-  }
-  personal-projects .personal-projects .project-display_one:hover .project-button_container .btn-primary {
-    border: 2px solid #F7FBFC;
-  }
-  personal-projects .personal-projects .project-display_one .project-button_container {
-    height: 0px;
-    width: 100%;
-    padding: 0px;
-    font-size: 0px;
-    background-color: #263650;
-    display: inline-flex;
-    margin-top: 250px;
-    transition: 0.3s;
-  }
-  personal-projects .personal-projects .project-display_one .project-button_container .btn-primary {
-    background-color: transparent;
-    color: #F7FBFC;
-    border: 0px solid #F7FBFC;
-    margin: 0 15px;
-  }
-  personal-projects .personal-projects .project-display_two {
-    background: url('../images/restaurante.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 220px;
-    margin: 40px 0;
-    transition: 0.3s;
-  }
-  personal-projects .personal-projects .project-display_two:hover .project-button_container {
-    height: auto;
-    padding: 5px;
-    margin-top: 190px;
-    font-size: 16px;
-  }
-  personal-projects .personal-projects .project-display_two:hover .project-button_container .btn-primary {
-    border: 2px solid #F7FBFC;
-  }
-  personal-projects .personal-projects .project-display_two .project-button_container {
-    height: 0px;
-    width: 100%;
-    padding: 0px;
-    font-size: 0px;
-    background-color: #263650;
-    display: inline-flex;
-    margin-top: 250px;
-    transition: 0.3s;
-  }
-  personal-projects .personal-projects .project-display_two .project-button_container .btn-primary {
-    background-color: transparent;
-    color: #F7FBFC;
-    border: 0px solid #F7FBFC;
-    margin: 0 15px;
   }
   team-projects {
     display: inline-block;
@@ -2699,6 +2665,14 @@ body {
     background-repeat: no-repeat;
     padding: 0;
   }
+  personal-projects .personal-projects .personal-projects_threeDOC {
+    height: 135px;
+    background-image: url('../images/59DOC.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+  }
   personal-projects .personal-projects .personal-projects_four {
     height: 150px;
     background-image: url('../images/geekwise-logo.jpg');
@@ -2706,72 +2680,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     padding: 0;
-  }
-  personal-projects .personal-projects .project-display_one {
-    background: url('../images/pet-store.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 220px;
-    margin: 40px 0;
-    transition: 0.3s;
-  }
-  personal-projects .personal-projects .project-display_one:hover .project-button_container {
-    height: auto;
-    padding: 5px;
-    margin-top: 190px;
-    font-size: 16px;
-  }
-  personal-projects .personal-projects .project-display_one:hover .project-button_container .btn-primary {
-    border: 2px solid #F7FBFC;
-  }
-  personal-projects .personal-projects .project-display_one .project-button_container {
-    height: 0px;
-    width: 100%;
-    padding: 0px;
-    font-size: 0px;
-    background-color: #263650;
-    display: inline-flex;
-    margin-top: 250px;
-    transition: 0.3s;
-  }
-  personal-projects .personal-projects .project-display_one .project-button_container .btn-primary {
-    background-color: transparent;
-    color: #F7FBFC;
-    border: 0px solid #F7FBFC;
-    margin: 0 15px;
-  }
-  personal-projects .personal-projects .project-display_two {
-    background: url('../images/restaurante.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 220px;
-    margin: 40px 0;
-    transition: 0.3s;
-  }
-  personal-projects .personal-projects .project-display_two:hover .project-button_container {
-    height: auto;
-    padding: 5px;
-    margin-top: 190px;
-    font-size: 16px;
-  }
-  personal-projects .personal-projects .project-display_two:hover .project-button_container .btn-primary {
-    border: 2px solid #F7FBFC;
-  }
-  personal-projects .personal-projects .project-display_two .project-button_container {
-    height: 0px;
-    width: 100%;
-    padding: 0px;
-    font-size: 0px;
-    background-color: #263650;
-    display: inline-flex;
-    margin-top: 250px;
-    transition: 0.3s;
-  }
-  personal-projects .personal-projects .project-display_two .project-button_container .btn-primary {
-    background-color: transparent;
-    color: #F7FBFC;
-    border: 0px solid #F7FBFC;
-    margin: 0 15px;
   }
   team-projects {
     display: inline-block;
