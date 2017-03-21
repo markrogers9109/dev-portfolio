@@ -3,7 +3,7 @@ angular.module('skillsDirective', [])
 .directive('superPowers', function() {
   return {
     restrict: 'E',
-    templateUrl: 'views/skills.html',
+    templateUrl: 'templates/skills.html',
     controller: 'homeAnimationCtrl'
   };
 });
